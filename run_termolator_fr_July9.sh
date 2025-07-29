@@ -1,0 +1,116 @@
+#!/bin/bash
+
+# Arguments
+#  $1: foreground dir
+#  $2: background dir
+#  $3: output base name
+#  $4: process background? (True/False)
+#  $5: process foreground? (True/False)
+#  $6: run web filter? (True/False)
+#  $7: max number of terms
+#  $8: top N terms to keep
+#  $9: termolator dir
+# $10: treetagger dir
+# $11: lang model cutoff (-1, -.2, False)
+
+set -e
+
+foreground_dir="${1%/}"
+background_dir="${2%/}"
+outname="$3"
+termolator_dir="${9%/}"
+treetagger_dir="${10%/}"
+lang_model_cutoff="$11"
+
+# Function to preprocess directory
+preprocess_dir() {
+  local dir=$1
+  local label=$2
+
+  echo "--- Language modeling: $label ---"
+  bash "$termolator_dir/run_lang_model_${label}_fr.sh" "$dir" "$lang_model_cutoff" "$termolator_dir"
+
+  echo "--- Tagging documents: $label ---"
+  bash "$termolator_dir/tag_back_and_foreground.sh" "$dir" "$treetagger_dir"
+
+  echo "--- Creating file list: $label ---"
+  bash "$termolator_dir/make_file_list.sh" "${dir}_tagged/"
+  python3 "$termolator_dir/file_list_error_fudge.py" "${dir}_tagged_list.txt"
+
+  echo "--- Extracting noun chunks: $label ---"
+  java -cp "$termolator_dir" getNounChunks "${dir}_tagged_list.txt"
+
+  echo "--- Running stage 1 filter: $label ---"
+  python3 "$termolator_dir/stage1_driver.py" "${dir}_tagged_list.chunklist"
+
+  echo "--- Creating .terms files from .chunks ---"
+  while read filepath; do
+    basefile=$(basename "$filepath" .txt_tagged)
+    chunkfile="${dir}_tagged/${basefile}.chunks"
+    termsfile="${dir}_tagged/${basefile}.terms"
+    if [ -f "$chunkfile" ]; then
+      cp "$chunkfile" "$termsfile"
+    fi
+  done < "${dir}_tagged_list.txt"
+}
+
+if [ "${4,,}" = "true" ]; then
+  preprocess_dir "$background_dir" "background"
+fi
+
+if [ "${5,,}" = "true" ]; then
+  preprocess_dir "$foreground_dir" "foreground"
+fi
+
+echo "--- Creating IO mapping files ---"
+python3 "$termolator_dir/make_io_file.py" "${foreground_dir}_tagged_list.txt" "${outname}.internal_foreground_substring_list" .substring
+python3 "$termolator_dir/make_io_file.py" "${background_dir}_tagged_list.txt" "${outname}.internal_background_substring_list" .substring
+python3 "$termolator_dir/make_io_file.py" "${foreground_dir}_tagged_list.txt" "${outname}.internal_terms_abbr_list" ""
+
+echo "--- Extracting inline abbreviations ---"
+python3 "$termolator_dir/run_find_inline_terms_fr.py" \
+  "${outname}.internal_terms_abbr_list" \
+  $outname \
+  false \
+  false
+
+python3 "$termolator_dir/make_io_file.py" "${foreground_dir}_tagged_list.txt" "${outname}.internal_foreground_abbr_list" .abbr
+python3 "$termolator_dir/make_io_file.py" "${background_dir}_tagged_list.txt" "${outname}.internal_background_abbr_list" .abbr
+
+python3 "$termolator_dir/possibly_create_abbreviate_dicts.py" \
+  "${outname}.internal_foreground_abbr_list" \
+  "${outname}.dict_full_to_abbr" \
+  "${outname}.dict_abbr_to_full"
+
+python3 "$termolator_dir/run_make_term_and_substring_list.py" \
+  "${outname}.internal_terms_abbr_list" \
+  "${outname}.dict_abbr_to_full" \
+  False \
+  "${outname}_lemma.dict"
+
+python3 "$termolator_dir/distributional_component.py" NormalRank \
+  "${foreground_dir}_tagged_list.chunklist.substring_list" \
+  "${outname}.all_terms" \
+  False \
+  "${background_dir}_tagged_list.chunklist.substring_list"
+
+python3 "$termolator_dir/filter_term_output_fr.py" \
+  "$outname" \
+  "${outname}.webscore" \
+  "$6" \
+  "$7" \
+  "${outname}.internal_terms_abbr_list" \
+  False
+
+head -n "$8" "${outname}.scored_output" | cut -f 1 > "${outname}.out_term_list"
+
+echo "--- Running term map generation ---"
+bash "$termolator_dir/run_term_map_fr_June24.sh" \
+  "${foreground_dir}_tagged_list.txt" \
+  "${outname}.out_term_list" \
+  "$outname" \
+  "$PWD" \
+  "$termolator_dir" \
+  "fr"
+
+echo "✅ Done. Output written to ${outname}.scored_output, ${outname}.out_term_list, and ${outname}.term_instance_map"
