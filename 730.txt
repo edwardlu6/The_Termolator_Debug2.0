@@ -1,0 +1,1143 @@
+Script started on 2025-07-30 08:37:24-04:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="82" LINES="26"]
+]0;alm4@grice:~/Termolator2/working_copy/summary[?2004h(dspython) (dspython) [alm4@grice summary]$ python3 auto_summary.py
+[?2004lGlossary Creation System:
+Please follow the prompts to create a glossary.
+1 :  English
+2 :  Chinese
+3 :  French
+Please enter your language option (enter the number):
+3
+Choose a foreground.
+please enter a topic:
+vision par ordinateur
+1 :  Vision par ordinateur
+2 :  Apprentissage profond
+3 :  Ray-Ban Meta
+4 :  Google Lens
+5 :  Indice et distance de Jaccard
+6 :  Ordinateur quantique
+7 :  Interactions humain-machine
+8 :  International Conference on Computer Vision
+9 :  Fei-Fei Li
+10 :  Histoire de l'intelligence artificielle
+Please specify which topic you mean:
+1
+1 :  Vision artificielle
+Please specify which category you mean:
+1
+Choose a background.
+https://fr.wikipedia.org/wiki/Category:Vision_artificielle
+1 :  Intelligence artificielle
+2 :  Optique
+3 :  Vision
+4 :  Traitement d'image
+5 :  All
+Please choose all the relavent subclasses (list each number separated by a comma (Ex. 1,3,4)):
+1
+chosen index: 0
+Foreground:  Vision artificielle
+Background:  ['Intelligence artificielle']
+Does this look good? (Y,n)
+y
+Please enter the number of articles you would like to search:
+150
+Please enter the type of file the summary should be written to (Ex. .txt, .xml, etc):
+/ .txt
+
+The final output dir will be: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle
+The target language is: french
+The category to be retrieved is: Vision_artificielle
+Will retrieve articles found in subcategories (breadth-first search)
+
+228452 	 0 	 Vision par ordinateur
+10755709 	 0 	 Algorithme de Farneback
+1294441 	 0 	 Annotation automatique d'images
+9550557 	 0 	 Aphelion (logiciel)
+5188857 	 0 	 Arbre de vocabulaire évolutif
+5183718 	 0 	 Assemblage de photos
+5315020 	 0 	 Biométrie douce
+5762097 	 0 	 Caltech 101
+1894938 	 0 	 Camera Link
+3708402 	 0 	 Camshift
+4990582 	 0 	 Caractéristiques pseudo-Haar
+5281092 	 0 	 Carte de disparité
+16403895 	 0 	 CIFAR-10
+4789411 	 0 	 Conference on Computer Vision and Pattern Recognition
+4946777 	 0 	 Détection d'objet
+5016296 	 0 	 Détection de personnes
+4990991 	 0 	 Détection de visage
+5084134 	 0 	 Différence de gaussiennes
+6714775 	 0 	 Eigenface
+5405524 	 0 	 Espace d'échelle
+6387584 	 0 	 European Conference on Computer Vision
+4947253 	 0 	 Extraction de caractéristique en vision par ordinateur
+5187247 	 0 	 Features from Accelerated Segment Test
+5545712 	 0 	 Flux optique
+4995855 	 0 	 Histogramme de gradient orienté
+4993304 	 0 	 IEEE Transactions on Pattern Analysis and Machine Intelligence
+4973865 	 0 	 Image intégrale
+11032734 	 0 	 ImageNet
+14486987 	 0 	 Institut de recherche Icare
+4821265 	 0 	 International Conference on Computer Vision
+4947312 	 0 	 International Journal of Computer Vision
+5536390 	 0 	 Iterative Closest Point
+3825745 	 0 	 Lunettes vidéo
+4775578 	 0 	 Méthode d'Otsu
+6348275 	 0 	 Méthode de Lucas–Kanade
+3472145 	 0 	 Méthode de Viola et Jones
+5003037 	 0 	 Motif binaire local
+5156600 	 0 	 Photogrammétrie numérique
+3908440 	 0 	 Point d'intérêt (morphométrie)
+1823283 	 0 	 Point Distribution Model
+2008138 	 0 	 ReCAPTCHA
+356987 	 0 	 Recherche d'image par le contenu
+40108 	 0 	 Reconnaissance optique de caractères
+5390054 	 0 	 Reconstruction 3D à partir d'images
+9910617 	 0 	 Rendu fovéal
+16948230 	 0 	 Azriel Rosenfeld
+5165628 	 0 	 Sac de mots
+4951709 	 0 	 Scale-invariant feature transform
+8252197 	 0 	 SensoMotoric Instruments
+5188593 	 0 	 Shape context
+5080972 	 0 	 Speeded Up Robust Features
+8698994 	 0 	 Système de reconnaissance faciale
+15716470 	 0 	 Tesla Dojo
+56114 	 0 	 Transformée de Hough
+1074989 	 0 	 Transformée généralisée de Hough
+8176804 	 0 	 VeriFace
+1291862 	 0 	 Vision industrielle
+1704090 	 14 	 Catégorie:Indexation vidéo
+6202800 	 14 	 Catégorie:Réalité augmentée
+3279257 	 14 	 Catégorie:Reconnaissance optique de caractères
+6164673 	 0 	 ACM Multimedia
+227728 	 0 	 Base de données multimédia
+1574476 	 0 	 Détection automatique des publicités télévisées
+4947253 	 0 	 Extraction de caractéristique en vision par ordinateur
+287815 	 0 	 MPEG-7
+2780109 	 0 	 Piria
+1230546 	 0 	 Quaero
+356987 	 0 	 Recherche d'image par le contenu
+1701561 	 0 	 Segmentation en plans
+62050 	 0 	 Réalité augmentée
+6845941 	 0 	 Drakerz-Confrontation
+6205955 	 0 	 Google Glass
+4293475 	 0 	 Google Goggles
+13504240 	 0 	 Google Lens
+16553693 	 0 	 Meta Horizon OS
+11569907 	 0 	 Jumeau numérique
+14195942 	 0 	 Jumeau numérique du projet
+5125113 	 0 	 Lentille de contact bionique
+11280158 	 0 	 Lunettes intelligentes
+10494364 	 0 	 Magic Leap
+11357846 	 0 	 Magic Leap One
+12641645 	 0 	 Meta Quest (produit)
+13602329 	 0 	 Meta Quest 2
+8702869 	 0 	 Microsoft HoloLens
+4462748 	 0 	 Pranav Mistry
+16862043 	 0 	 Musée d'art urbain augmenté
+8083514 	 0 	 PlayStation VR
+15569462 	 0 	 Réalité étendue
+14251189 	 0 	 Seven Grams
+4464142 	 0 	 SixthSense
+7640064 	 0 	 Technologie portable
+8632995 	 0 	 Visiocasque
+11536679 	 14 	 Catégorie:Jeu vidéo utilisant la réalité augmentée
+432946 	 0 	 Babylon (logiciel)
+9561726 	 0 	 FE-Schrift
+4774640 	 0 	 FineReader
+4928113 	 0 	 Edmund Edward Fournier d'Albe
+392910 	 0 	 GOCR
+255312 	 0 	 Lecture automatisée de plaques d'immatriculation
+9560853 	 0 	 OCR-A
+9560760 	 0 	 OCR-B
+1764766 	 0 	 OCRopus
+3983172 	 0 	 ReadSoft
+12540993 	 0 	 Reconnaissance des caractères à l'encre magnétique
+40108 	 0 	 Reconnaissance optique de caractères
+125481 	 0 	 Reconnaissance optique de marques
+11127646 	 0 	 Reconnaissance optique de musique
+1940472 	 0 	 Tesseract (logiciel)
+14373336 	 0 	 Transkribus
+2458897 	 0 	 The Eye of Judgment
+12941409 	 0 	 Five Nights at Freddy's AR: Special Delivery
+9356117 	 0 	 La Guerre des têtes
+6734613 	 0 	 Ingress
+4806927 	 0 	 Invizimals
+5824852 	 0 	 Invizimals: The Lost Tribes
+12558389 	 0 	 Minecraft Earth
+12360209 	 0 	 Opticale
+14439792 	 0 	 Pikmin Bloom
+9410047 	 0 	 Pokémon Go
+13246003 	 0 	 Wonderbook : Diggs détective privé
+12488666 	 0 	 Wonderbook : Le Livre des potions
+13246004 	 0 	 Wonderbook : Sur la terre des dinosaures
+12488656 	 0 	 Wonderbook: Book of Spells
+
+Creating queries
+
+
+Extracting from XML format with WikiExtractor
+
+/misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction/WikiExtractor.py:2447: DeprecationWarning: Flags not at the start of the expression '\\[(((?i)bitcoin:|ftp' (truncated) but at position 4
+  ExtLinkBracketedRegex = re.compile(
+/misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction/WikiExtractor.py:2454: DeprecationWarning: Flags not at the start of the expression '^(http://|https://)(' (truncated) but at position 95
+  EXT_IMAGE_REGEX = re.compile(
+INFO: Loaded 0 templates in 0.0s
+INFO: Starting page extraction from Vision_artificielle_xml_all.txt.
+INFO: Using 47 extract processes.
+INFO: 40108	Reconnaissance optique de caractères
+INFO: 56114	Transformée de Hough
+INFO: 62050	Réalité augmentée
+INFO: 392910	GOCR
+INFO: 1291862	Vision industrielle
+INFO: 228452	Vision par ordinateur
+INFO: 1294441	Annotation automatique d'images
+INFO: 1894938	Camera Link
+INFO: 1574476	Détection automatique des publicités télévisées
+INFO: 2008138	ReCAPTCHA
+INFO: 2458897	The Eye of Judgment
+INFO: 2780109	Piria
+INFO: 3708402	Camshift
+INFO: 3825745	Lunettes vidéo
+INFO: 3908440	Point d'intérêt (morphométrie)
+INFO: 3983172	ReadSoft
+INFO: 4462748	Pranav Mistry
+INFO: 4464142	SixthSense
+INFO: 4775578	Méthode d'Otsu
+INFO: 4789411	Conference on Computer Vision and Pattern Recognition
+INFO: 4806927	Invizimals
+INFO: 4946777	Détection d'objet
+INFO: 4947253	Extraction de caractéristique en vision par ordinateur
+INFO: 4947312	International Journal of Computer Vision
+INFO: 4973865	Image intégrale
+INFO: 4993304	IEEE Transactions on Pattern Analysis and Machine Intelligence
+INFO: 4990991	Détection de visage
+INFO: 5080972	Speeded Up Robust Features
+INFO: 5125113	Lentille de contact bionique
+INFO: 5165628	Sac de mots
+INFO: 5187247	Features from Accelerated Segment Test
+INFO: 5188593	Shape context
+INFO: 5824852	Invizimals: The Lost Tribes
+INFO: 8252197	SensoMotoric Instruments
+INFO: 6845941	Drakerz-Confrontation
+INFO: 8632995	Visiocasque
+INFO: 9356117	La Guerre des têtes
+INFO: 8698994	Système de reconnaissance faciale
+INFO: 9560853	OCR-A
+INFO: 9561726	FE-Schrift
+INFO: 9550557	Aphelion (logiciel)
+INFO: 14373336	Transkribus
+INFO: 12540993	Reconnaissance des caractères à l'encre magnétique
+INFO: 11569907	Jumeau numérique
+INFO: 16403895	CIFAR-10
+INFO: 14439792	Pikmin Bloom
+INFO: 227728	Base de données multimédia
+INFO: 16553693	Meta Horizon OS
+INFO: 255312	Lecture automatisée de plaques d'immatriculation
+INFO: 287815	MPEG-7
+INFO: 356987	Recherche d'image par le contenu
+INFO: 432946	Babylon (logiciel)
+INFO: 1074989	Transformée généralisée de Hough
+INFO: 1823283	Point Distribution Model
+INFO: 1940472	Tesseract (logiciel)
+INFO: 3472145	Méthode de Viola et Jones
+INFO: 4293475	Google Goggles
+INFO: 4821265	International Conference on Computer Vision
+INFO: 4928113	Edmund Edward Fournier d'Albe
+INFO: 4990582	Caractéristiques pseudo-Haar
+INFO: 4951709	Scale-invariant feature transform
+INFO: 4995855	Histogramme de gradient orienté
+INFO: 5003037	Motif binaire local
+INFO: 5016296	Détection de personnes
+INFO: 5084134	Différence de gaussiennes
+INFO: 5156600	Photogrammétrie numérique
+INFO: 5183718	Assemblage de photos
+INFO: 5281092	Carte de disparité
+INFO: 5536390	Iterative Closest Point
+INFO: 5545712	Flux optique
+INFO: 5762097	Caltech 101
+INFO: 6205955	Google Glass
+INFO: 6348275	Méthode de Lucas–Kanade
+INFO: 6387584	European Conference on Computer Vision
+INFO: 7640064	Technologie portable
+INFO: 8083514	PlayStation VR
+INFO: 8702869	Microsoft HoloLens
+INFO: 9560760	OCR-B
+INFO: 9910617	Rendu fovéal
+INFO: 9410047	Pokémon Go
+INFO: 10494364	Magic Leap
+INFO: 11127646	Reconnaissance optique de musique
+INFO: 11280158	Lunettes intelligentes
+INFO: 11357846	Magic Leap One
+INFO: 12360209	Opticale
+INFO: 12558389	Minecraft Earth
+INFO: 12641645	Meta Quest (produit)
+INFO: 12941409	Five Nights at Freddy's AR: Special Delivery
+INFO: 13504240	Google Lens
+INFO: 14251189	Seven Grams
+INFO: 14486987	Institut de recherche Icare
+INFO: 15569462	Réalité étendue
+INFO: 15716470	Tesla Dojo
+INFO: 16948230	Azriel Rosenfeld
+INFO: 125481	Reconnaissance optique de marques
+INFO: 16862043	Musée d'art urbain augmenté
+INFO: 1230546	Quaero
+INFO: 1764766	OCRopus
+INFO: 4774640	FineReader
+INFO: 5188857	Arbre de vocabulaire évolutif
+INFO: 1701561	Segmentation en plans
+INFO: 5315020	Biométrie douce
+INFO: 5405524	Espace d'échelle
+INFO: 5390054	Reconstruction 3D à partir d'images
+INFO: 6164673	ACM Multimedia
+INFO: 6714775	Eigenface
+INFO: 8176804	VeriFace
+INFO: 10755709	Algorithme de Farneback
+INFO: 6734613	Ingress
+INFO: 11032734	ImageNet
+INFO: 13602329	Meta Quest 2
+INFO: 14195942	Jumeau numérique du projet
+INFO: Finished 47-process extraction of 112 articles in 0.1s (761.6 art/s)
+INFO: total of page: 112, total of articl page: 112; total of used articl page: 112
+
+Final stage: separating docs
+
+Separating documents; placing in folder: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle
+Done
+##### Executed command: bash /misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction/get_wiki_corpus_main.sh French Vision_artificielle /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle True  150 /misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction
+##### get_wiki_corpus_main.sh execution finished #####
+#### /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle.file_list
+min:
+/misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle.file_list 1
+touch /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle_all_background_files.file_list
+python3 /misc/grice1/meyers/Termolator2/working_copy/mod_make_glossary_part1.py /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle.file_list Vision_artificielle .txt /misc/grice1/meyers/Termolator2/working_copy
+#####
+
+The final output dir will be: /misc/grice1/meyers/Termolator2/working_copy/summary/Intelligence_artificielle
+The target language is: french
+The category to be retrieved is: Intelligence_artificielle
+Will retrieve articles found in subcategories (breadth-first search)
+
+13586910 	 0 	 Agence francophone pour l'intelligence artificielle
+15501649 	 0 	 Partenariat sur l'IA
+16525557 	 0 	 SB1047
+15850182 	 0 	 Stratégie nationale pour l'intelligence artificielle
+16361295 	 100 	 Portail:Intelligence artificielle
+16903984 	 0 	 Adobe Firefly
+16746939 	 0 	 Advice Taker
+16954363 	 0 	 AffectNet
+322072 	 0 	 Agent intelligent
+784590 	 0 	 Agent logiciel
+5528070 	 0 	 Agent virtuel
+13456504 	 0 	 AI Dungeon 2
+13108543 	 0 	 AIOps
+12342677 	 0 	 Aladdin (BlackRock)
+285564 	 0 	 Algorithme A*
+6309260 	 0 	 Algorithme anytime
+44800 	 0 	 Algorithme génétique
+552007 	 0 	 Algorithme minimax
+16755459 	 0 	 Alicia Troncoso Lora
+686574 	 0 	 Alignement d'ontologies
+15489366 	 0 	 Alignement des intelligences artificielles
+15605223 	 0 	 Alignment Research Center
+16585337 	 0 	 Allen Control Systems Bullfrog
+13218933 	 0 	 Amparo Alonso-Betanzos
+9743984 	 0 	 AlphaGo
+11432782 	 0 	 AlphaGo Zero
+11439067 	 0 	 AlphaZero
+4919884 	 0 	 Analyse décisionnelle des systèmes complexes
+1542039 	 0 	 Analyse sémantique latente
+1542185 	 0 	 Analyse sémantique latente probabiliste
+217227 	 0 	 Analyse syntaxique de surface
+7706099 	 0 	 Ancrage des symboles
+11673215 	 0 	 Anticipation (intelligence artificielle)
+1262956 	 0 	 Apertium
+11870751 	 0 	 Applications de l'intelligence artificielle
+16273847 	 0 	 Apprentissage par renforcement à partir de rétroaction humaine
+14442889 	 0 	 Apprentissage par renforcement profond
+342760 	 0 	 Architecture cognitive
+5433296 	 0 	 Arithmétique floue
+13760844 	 0 	 Artificial Intelligence (revue scientifique)
+10340403 	 0 	 Assistant Google
+10346638 	 0 	 Assistant personnel intelligent
+10341955 	 0 	 Association française pour l'intelligence artificielle
+15609391 	 0 	 Auto-GPT
+118575 	 0 	 Autonomic computing
+4811461 	 0 	 Avida (logiciel)
+16356017 	 0 	 Axiles Bionics
+16738676 	 0 	 AZFinText
+11683278 	 0 	 Florent Aziosmanoff
+928272 	 0 	 Base de connaissance
+13102509 	 0 	 Basilic de Roko
+299077 	 0 	 BioWall
+14645564 	 0 	 Black in AI
+3993772 	 0 	 Blue Brain
+16101793 	 0 	 Boom de l'intelligence artificielle
+826510 	 0 	 Bot informatique
+8476497 	 0 	 Brain Activity Map Project
+16003990 	 0 	 Brain Bar
+16195162 	 0 	 Bertrand Braunschweig
+15993516 	 0 	 Briefcam
+3044459 	 0 	 Cadre (intelligence artificielle)
+10139572 	 0 	 Calcul des situations
+5762097 	 0 	 Caltech 101
+135160 	 0 	 CAPTCHA
+12757952 	 0 	 Center for Applied Rationality
+15574354 	 0 	 Center for Human-Compatible Artificial Intelligence
+15574481 	 0 	 Center for Security and Emerging Technology
+3679803 	 0 	 Centre Internet et Société
+2760340 	 0 	 Cerveau artificiel
+6696965 	 0 	 Chaînage arrière
+4961715 	 0 	 Chaînage avant
+109476 	 0 	 Chambre chinoise
+15915824 	 0 	 Character.ai
+7013 	 0 	 Chatbot
+15336720 	 0 	 ChatGPT
+16093996 	 0 	 ChatGPT dans l'éducation
+16399359 	 0 	 ChatGPT Search
+7635276 	 0 	 Chinook (programme de dames)
+16815463 	 0 	 Chronologie de l'intelligence artificielle
+16321034 	 0 	 Ciblage assisté par l'IA dans la bande de Gaza
+16403895 	 0 	 CIFAR-10
+5458509 	 0 	 Classification sous contrainte
+16180885 	 0 	 Claude (modèle de langage)
+5717097 	 0 	 Cleverbot
+174244 	 0 	 Cognitique
+651 	 0 	 Communication humaine
+11714821 	 0 	 Compréhension du langage naturel
+213392 	 0 	 Computing Machinery and Intelligence
+15582861 	 0 	 Conférence d'Asilomar sur l'IA bénéfique
+12346479 	 0 	 Conférence de Dartmouth
+3964102 	 0 	 Conscience artificielle
+15082207 	 0 	 Conscience Robotics
+16351994 	 0 	 Conséquences économiques de l'intelligence artificielle
+768505 	 0 	 Contexte
+15585530 	 0 	 Contrôle des capacités de l'IA
+1644419 	 0 	 Copycat (logiciel)
+16193476 	 0 	 Course aux armements intelligents
+16716565 	 0 	 Current AI
+3012006 	 0 	 Cyc
+15011111 	 0 	 DABUS
+14927170 	 0 	 DALL-E
+450165 	 0 	 DARPA Grand Challenge
+8826827 	 0 	 DARPA Robotics Challenge
+12884214 	 0 	 Déclaration de Montréal pour un développement responsable de l'intelligence artificielle
+16833737 	 0 	 Deep Learning Anti-Aliasing
+9933553 	 0 	 DeepDream
+11250074 	 0 	 DeepL
+16681049 	 0 	 DeepSeek
+14887533 	 0 	 DentalMonitoring
+16097657 	 0 	 Détection de contenu généré par intelligence artificielle
+779198 	 0 	 Diagnostic (intelligence artificielle)
+15626950 	 0 	 Dialogflow
+16434362 	 0 	 Distillation des connaissances
+15962515 	 0 	 Donnée synthétique
+16771300 	 0 	 Dragon Systems
+12887870 	 0 	 Échantillonnage de Thompson
+15676424 	 0 	 Écriture assistée par intelligence artificielle
+10006230 	 0 	 Effet d'horizon
+967431 	 0 	 Effet ELIZA
+11871821 	 0 	 Effet IA
+16533480 	 0 	 Effondrement de modèles d'intelligence artificielle
+6714775 	 0 	 Eigenface
+752224 	 0 	 Élagage alpha-bêta
+799747 	 0 	 Élicitation
+8608 	 0 	 ELIZA
+16113777 	 0 	 Emi Kusano
+16956231 	 0 	 EmoDB
+2848 	 0 	 Ensemble flou
+801853 	 0 	 Environnement intelligent
+16871609 	 0 	 EsmGFP
+10401129 	 0 	 Éthique de l'intelligence artificielle
+1640723 	 0 	 Eurisko
+7693263 	 0 	 Exocortex
+10858354 	 0 	 Explosion d'intelligence
+4961257 	 0 	 Extraction de caractéristique
+4961273 	 0 	 Extraction de caractéristique (audio)
+15944563 	 0 	 Falcon 180B
+16064943 	 0 	 FARI - AI for the Common Good
+13264884 	 0 	 Filet céleste
+15351509 	 0 	 FN Meka
+4480461 	 0 	 FreeHAL
+12540143 	 0 	 Friday (comics)
+15447174 	 0 	 Gemini (IA)
+1666342 	 0 	 General Problem Solver
+16662375 	 0 	 Génération Bêta
+16824671 	 0 	 Gibberlink
+15548047 	 0 	 GitHub Copilot
+1872543 	 0 	 Go en informatique
+9818597 	 0 	 Google Brain
+6500158 	 0 	 Google Knowledge Graph
+6683474 	 0 	 Google Now
+15523161 	 0 	 GPT-4
+16574700 	 0 	 GPTZero
+601123 	 0 	 Graphe conceptuel
+1001795 	 0 	 Richard Greenblatt
+16304992 	 0 	 Grok (IA)
+16304953 	 0 	 Groq
+264015 	 0 	 HAL 9000
+15633579 	 0 	 Hallucination (intelligence artificielle)
+6665052 	 0 	 Histoire de l'intelligence artificielle
+9993315 	 0 	 Emily Howell
+6038110 	 0 	 Human Brain Project
+12775992 	 0 	 I.A. La Plus Grande Mutation de l'Histoire
+16084119 	 0 	 IA neuro-symbolique
+16750344 	 0 	 IA pédagogique
+85079 	 0 	 IA-complet
+375225 	 0 	 IAN (bande dessinée)
+12165977 	 0 	 Projet IBM Debater
+16594192 	 0 	 IBM Watsonx
+14003829 	 0 	 IJCAI Computers and Thought Award
+11032734 	 0 	 ImageNet
+16711055 	 0 	 Impacts environnementaux de l'intelligence artificielle
+16174603 	 0 	 Infinite Craft
+6070254 	 0 	 Information Processing Language
+5254930 	 0 	 Informatique affective
+16193206 	 0 	 Informatique de la personnalité
+13516934 	 0 	 Informatique naturelle
+16735953 	 0 	 Ingénierie de l'intelligence artificielle
+16250552 	 0 	 Ingénierie de prompt
+786602 	 0 	 Ingénierie des connaissances
+16548796 	 0 	 Ingénieur en intelligence artificielle
+14486987 	 0 	 Institut de recherche Icare
+16697767 	 0 	 Institut national pour l'évaluation et la sécurité de l'intelligence artificielle
+1548 	 0 	 Intelligence artificielle
+15582910 	 0 	 Intelligence artificielle : une approche moderne
+10513899 	 0 	 Intelligence artificielle amicale
+16755880 	 0 	 Intelligence artificielle dans l'éducation
+11678728 	 0 	 Intelligence artificielle dans la santé
+9858917 	 0 	 Intelligence artificielle dans le jeu vidéo
+16030757 	 0 	 Intelligence artificielle de remédiation
+16931171 	 0 	 Intelligence artificielle des objets
+15635225 	 0 	 Intelligence artificielle digne de confiance
+16679376 	 0 	 Intelligence artificielle et élections
+7859481 	 0 	 Intelligence artificielle faible
+16481241 	 0 	 Intelligence artificielle frugale
+15605293 	 0 	 Intelligence artificielle générale
+15651780 	 0 	 Intelligence artificielle générative
+16746244 	 0 	 Intelligence artificielle pour les projets Wikimédia
+15964650 	 0 	 Intelligence artificielle symbolique
+2796084 	 0 	 Intelligence computationnelle
+15669492 	 0 	 Intelligence synthétique
+15933242 	 0 	 International Conference on Learning Representations
+11205406 	 0 	 International Machine Learning Society
+14580966 	 0 	 Isomorphic Labs
+1093988 	 0 	 Jabberwacky
+9889952 	 0 	 JeuxDeMots
+6263675 	 0 	 Joshua Blue
+10614272 	 0 	 Journal of Machine Learning Research
+10994058 	 0 	 Jump point search
+11424418 	 0 	 Keras
+12603852 	 0 	 Kizuna AI
+14095204 	 0 	 Nataliya Kosmyna
+16824906 	 0 	 Kratt
+13676413 	 0 	 Logique contextuelle
+2307046 	 0 	 Laboratoire d'analyse et d'architecture des systèmes
+15415780 	 0 	 LaMDA
+9345583 	 0 	 Langage à Cadre
+16957340 	 0 	 Lavender (logiciel)
+16707380 	 0 	 Le Chat (IA)
+16242978 	 0 	 Leonardo AI
+15687365 	 0 	 Les Voix
+12758002 	 0 	 LessWrong
+11165761 	 0 	 Lettre ouverte sur l'intelligence artificielle
+11032880 	 0 	 Libratus
+16451719 	 2 	 Utilisateur:Mi Mondo/Brouillon
+1716 	 0 	 Lisp
+1040882 	 0 	 LLaMA
+12517534 	 0 	 Logic Theorist
+1793572 	 0 	 Logique défaisable
+15993 	 0 	 Logique déontique
+29909 	 0 	 Logique floue
+16710659 	 0 	 Sasha Luccioni
+10616761 	 0 	 Machine Learning (revue)
+802945 	 0 	 Machine Lisp
+16746954 	 0 	 Maintenance des raisons
+16755613 	 0 	 Manus (agent IA)
+16770534 	 2 	 Utilisateur:Marcobeni/Brouillon
+13859823 	 0 	 Isabelle Mashola
+9998888 	 0 	 Match AlphaGo - Lee Sedol
+10065122 	 0 	 Matchs Deep Blue contre Kasparov
+1112913 	 0 	 Matrice de confusion
+12781006 	 0 	 Microsoft Cognitive Toolkit
+16246162 	 0 	 Microsoft Copilot
+15139703 	 0 	 Midjourney
+16844848 	 0 	 Ministre de l'Intelligence artificielle et de l'Innovation numérique
+16025953 	 0 	 Mistral AI
+16806934 	 0 	 Model Context Protocol
+16735873 	 0 	 Modèle croyance–désir–intention
+15267169 	 0 	 Modèle de fondation
+1480694 	 0 	 Modèle des croyances transférables
+928218 	 0 	 Moteur d'inférence
+1951 	 0 	 Moteur de recherche
+10464962 	 0 	 Multiréalisabilité
+14379709 	 0 	 MuZero
+4961177 	 0 	 Neural Information Processing Systems
+2827820 	 0 	 Neuro-ingénierie
+16895466 	 2 	 Utilisateur:Nicolashansbeebryte/Brouillon
+16346331 	 0 	 Notify
+16478119 	 0 	 OpenAI o1
+4660501 	 0 	 OpenCog
+11535969 	 0 	 Opération Serenata de Amor
+1452714 	 0 	 Optimisation non linéaire
+154371 	 0 	 Optimisation par essaims particulaires
+5556028 	 0 	 Paradoxe de Moravec
+5465186 	 0 	 Partitionnement spectral
+16639122 	 0 	 Pause IA
+9369729 	 0 	 Perception artificielle
+858194 	 0 	 Perceptron
+16071785 	 0 	 Perplexity AI
+10132976 	 0 	 Philosophie de l'intelligence artificielle
+15722299 	 0 	 Phraser
+16933371 	 0 	 PimEyes
+1485803 	 0 	 Walter Pitts
+11165217 	 0 	 Pixel Buds
+421204 	 0 	 Planification (intelligence artificielle)
+16915372 	 0 	 Platform for Open Exploration
+16101758 	 0 	 Point de vue d'Hubert Dreyfus sur l'intelligence artificielle
+16540311 	 0 	 Power and Progress
+838789 	 0 	 Principaux projets et réalisations en intelligence artificielle
+15963927 	 0 	 Prisma Labs
+13695326 	 0 	 Prix Allen-Newell
+5695204 	 0 	 Problème du cadre
+915991 	 0 	 Processus de décision markovien
+1010253 	 0 	 Processus de décision markovien partiellement observable
+1000310 	 0 	 Programmation génétique
+590950 	 0 	 Programmation logique inductive
+89964 	 0 	 Prolog
+1377026 	 0 	 Propagation d'affinité
+5509573 	 0 	 Proximité sémantique
+15562768 	 0 	 Psychométrie computationnelle
+1699052 	 0 	 Pulvérisation (mathématiques)
+11740640 	 0 	 PyTorch
+15022395 	 0 	 Qoves Studio
+548230 	 0 	 Raisonnement à partir de cas
+1658170 	 0 	 Raisonnement automatisé
+16845812 	 0 	 Randomisation de domaine
+16793486 	 0 	 Recherche approfondie (intelligence artificielle)
+14404369 	 0 	 Recherche automatique d'architecture neuronale
+774175 	 0 	 Recherche de chemin
+15944695 	 0 	 Recherche générative assistée par intelligence artificielle
+1277388 	 0 	 Recherche plein texte
+16301386 	 0 	 Reconnaissance automatique des émotions
+56107 	 0 	 Reconnaissance de formes
+125481 	 0 	 Reconnaissance optique de marques
+12259887 	 0 	 Réduction par ordre partiel
+16258550 	 0 	 Réglage fin
+14702002 	 0 	 Régulation des algorithmes
+16907237 	 0 	 Rejet de l'intelligence artificielle
+566366 	 0 	 Relaxation continue
+20465 	 0 	 Représentation des connaissances
+11980466 	 0 	 Réseau hiérarchisé de tâches
+6905681 	 0 	 Réseau intelligent
+11506355 	 0 	 Réseaux antagonistes génératifs
+1887690 	 0 	 Réseaux autonomes
+1887710 	 0 	 Réseaux spontanés
+3026168 	 0 	 Résumé automatique de texte
+16097581 	 0 	 Rétro-ingénierie assistée par l'IA
+15587514 	 0 	 Risque existentiel posé par l'intelligence artificielle
+7898473 	 0 	 Robolympics
+7139562 	 0 	 Robot Berenson
+8493753 	 0 	 RuleML Symposium
+15606162 	 0 	 Salon de l'Entrepreneuriat Numérique et de l'Intelligence Artificielle
+16746499 	 0 	 Savoir du sens commun
+2801948 	 0 	 Roger Schank
+5571241 	 0 	 SCIgen
+12439114 	 0 	 Michèle Sebag
+12876792 	 0 	 Semantic Scholar
+11609569 	 0 	 Sémantique cognitive
+181006 	 0 	 Séparation et évaluation
+16716931 	 0 	 Shadow AI
+5475250 	 0 	 SHODAN
+12593413 	 0 	 Shogi en informatique
+10307647 	 0 	 Show and Tell (logiciel)
+3008842 	 0 	 SHRDLU
+400735 	 0 	 Sidetrade
+4496632 	 0 	 Similarité (informatique)
+5511708 	 0 	 Similarité sémantique
+5779955 	 0 	 Siri (logiciel)
+2679427 	 0 	 Soar (architecture cognitive)
+11186508 	 0 	 Social bot
+5629624 	 0 	 Soft computing
+16708442 	 0 	 Sommet pour l'action sur l'intelligence artificielle
+16234839 	 0 	 Sommet sur l'intelligence artificielle de 2023
+16750472 	 0 	 Keith Sonderling
+16145430 	 0 	 Sora (IA)
+10982413 	 0 	 Space Robotics Challenge
+2974309 	 0 	 SpeechMagic
+15171154 	 0 	 Stable Diffusion
+813336 	 0 	 STRIPS
+13473280 	 0 	 StyleGAN
+10395956 	 0 	 Superintelligence
+10204467 	 0 	 Superintelligence : Paths, Dangers, Strategies
+16751719 	 0 	 Supertext
+245278 	 0 	 Surapprentissage
+15571236 	 0 	 Sûreté des intelligences artificielles
+14574453 	 0 	 Système d'aide à la décision clinique
+6918679 	 0 	 Système d'argumentation
+16737189 	 0 	 Système de contrôle hiérarchique
+2884 	 0 	 Système expert
+913685 	 0 	 Système immunitaire artificiel
+5630710 	 0 	 Système intelligent flou
+16736017 	 0 	 Système intelligent hybride
+11373687 	 0 	 Tacotron 2
+9895928 	 0 	 Tay (intelligence artificielle)
+10262282 	 0 	 Téléosémantique
+11497649 	 0 	 Tensor Processing Unit
+171982 	 0 	 Test de Turing
+16959943 	 0 	 The Gospel (logiciel)
+11740672 	 0 	 Theano (logiciel)
+59972 	 0 	 Thèse de Church
+1069236 	 0 	 Tierra (simulation informatique)
+1481748 	 0 	 Transparence (informatique)
+16709424 	 2 	 Utilisateur:Valenblp/Sasha Luccioni
+10982461 	 0 	 Valkyrie (robot)
+3603758 	 0 	 Vallée de l'étrange
+5162790 	 0 	 Watson (intelligence artificielle)
+4690985 	 0 	 Daniel Weinreb
+13777764 	 0 	 Xiaoice
+4693532 	 0 	 ZetaLisp
+12942836 	 0 	 Zhang Yiming
+13522740 	 0 	 Zo (intelligence artificielle)
+16365511 	 14 	 Catégorie:Wikipédia:ébauche intelligence artificielle
+9264458 	 14 	 Catégorie:Intelligence artificielle dans l'art et la culture
+607120 	 14 	 Catégorie:Algorithme d'optimisation
+2799643 	 14 	 Catégorie:Algorithme de classification
+940100 	 14 	 Catégorie:Algorithme de recherche
+3611563 	 14 	 Catégorie:Apprentissage automatique
+9459456 	 14 	 Catégorie:Cobotique
+1004128 	 14 	 Catégorie:Intelligence artificielle distribuée
+15004243 	 14 	 Catégorie:Entreprise d'intelligence artificielle
+12480806 	 14 	 Catégorie:Exoplanète découverte par intelligence artificielle
+16255646 	 14 	 Catégorie:Grand modèle de langage
+16735887 	 14 	 Catégorie:Ingénierie de l'intelligence artificielle
+13366175 	 14 	 Catégorie:Laboratoire de recherche en intelligence artificielle
+12438367 	 14 	 Catégorie:Membre de l'Association for the Advancement of Artificial Intelligence
+2493817 	 14 	 Catégorie:Ontologie (informatique)
+16643265 	 14 	 Catégorie:OpenAI
+1379957 	 14 	 Catégorie:Ordinateur d'échecs
+4151384 	 14 	 Catégorie:Personnalité liée à l'intelligence artificielle
+419960 	 14 	 Catégorie:Processus stochastique
+15589701 	 14 	 Catégorie:Risque de catastrophe planétaire lié à l'intelligence artificielle générale
+136715 	 14 	 Catégorie:Robotique
+5254665 	 14 	 Catégorie:Société savante en intelligence artificielle
+545812 	 14 	 Catégorie:Vision artificielle
+
+Creating queries
+
+
+Extracting from XML format with WikiExtractor
+
+/misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction/WikiExtractor.py:2447: DeprecationWarning: Flags not at the start of the expression '\\[(((?i)bitcoin:|ftp' (truncated) but at position 4
+  ExtLinkBracketedRegex = re.compile(
+/misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction/WikiExtractor.py:2454: DeprecationWarning: Flags not at the start of the expression '^(http://|https://)(' (truncated) but at position 95
+  EXT_IMAGE_REGEX = re.compile(
+INFO: Loaded 0 templates in 0.0s
+INFO: Starting page extraction from Intelligence_artificielle_xml_all.txt.
+INFO: Using 47 extract processes.
+INFO: 44800	Algorithme génétique
+INFO: 135160	CAPTCHA
+INFO: 174244	Cognitique
+INFO: 213392	Computing Machinery and Intelligence
+INFO: 686574	Alignement d'ontologies
+INFO: 450165	DARPA Grand Challenge
+INFO: 779198	Diagnostic (intelligence artificielle)
+INFO: 784590	Agent logiciel
+INFO: 799747	Élicitation
+INFO: 801853	Environnement intelligent
+INFO: 1262956	Apertium
+INFO: 1640723	Eurisko
+INFO: 1542039	Analyse sémantique latente
+INFO: 1872543	Go en informatique
+INFO: 3679803	Centre Internet et Société
+INFO: 3993772	Blue Brain
+INFO: 4919884	Analyse décisionnelle des systèmes complexes
+INFO: 4961257	Extraction de caractéristique
+INFO: 4961273	Extraction de caractéristique (audio)
+INFO: 7693263	Exocortex
+INFO: 10006230	Effet d'horizon
+INFO: 10341955	Association française pour l'intelligence artificielle
+INFO: 11439067	AlphaZero
+INFO: 11714821	Compréhension du langage naturel
+INFO: 12342677	Aladdin (BlackRock)
+INFO: 12757952	Center for Applied Rationality
+INFO: 13108543	AIOps
+INFO: 13218933	Amparo Alonso-Betanzos
+INFO: 13264884	Filet céleste
+INFO: 15082207	Conscience Robotics
+INFO: 15351509	FN Meka
+INFO: 15447174	Gemini (IA)
+INFO: 15574481	Center for Security and Emerging Technology
+INFO: 15501649	Partenariat sur l'IA
+INFO: 15585530	Contrôle des capacités de l'IA
+INFO: 15626950	Dialogflow
+INFO: 15850182	Stratégie nationale pour l'intelligence artificielle
+INFO: 15962515	Donnée synthétique
+INFO: 15993516	Briefcam
+INFO: 16180885	Claude (modèle de langage)
+INFO: 16321034	Ciblage assisté par l'IA dans la bande de Gaza
+INFO: 16356017	Axiles Bionics
+INFO: 16525557	SB1047
+INFO: 16533480	Effondrement de modèles d'intelligence artificielle
+INFO: 16585337	Allen Control Systems Bullfrog
+INFO: 16824671	Gibberlink
+INFO: 16755459	Alicia Troncoso Lora
+INFO: 16771300	Dragon Systems
+INFO: 16956231	EmoDB
+INFO: 2848	Ensemble flou
+INFO: 7013	Chatbot
+INFO: 8608	ELIZA
+INFO: 109476	Chambre chinoise
+INFO: 118575	Autonomic computing
+INFO: 217227	Analyse syntaxique de surface
+INFO: 299077	BioWall
+INFO: 285564	Algorithme A*
+INFO: 322072	Agent intelligent
+INFO: 342760	Architecture cognitive
+INFO: 552007	Algorithme minimax
+INFO: 752224	Élagage alpha-bêta
+INFO: 826510	Bot informatique
+INFO: 2760340	Cerveau artificiel
+INFO: 3012006	Cyc
+INFO: 4961715	Chaînage avant
+INFO: 5458509	Classification sous contrainte
+INFO: 6309260	Algorithme anytime
+INFO: 6500158	Google Knowledge Graph
+INFO: 6683474	Google Now
+INFO: 7706099	Ancrage des symboles
+INFO: 9818597	Google Brain
+INFO: 9933553	DeepDream
+INFO: 10340403	Assistant Google
+INFO: 10346638	Assistant personnel intelligent
+INFO: 10401129	Éthique de l'intelligence artificielle
+INFO: 10858354	Explosion d'intelligence
+INFO: 11673215	Anticipation (intelligence artificielle)
+INFO: 11250074	DeepL
+INFO: 11683278	Florent Aziosmanoff
+INFO: 11871821	Effet IA
+INFO: 12346479	Conférence de Dartmouth
+INFO: 12887870	Échantillonnage de Thompson
+INFO: 13456504	AI Dungeon 2
+INFO: 13760844	Artificial Intelligence (revue scientifique)
+INFO: 14645564	Black in AI
+INFO: 15011111	DABUS
+INFO: 15609391	Auto-GPT
+INFO: 15336720	ChatGPT
+INFO: 15676424	Écriture assistée par intelligence artificielle
+INFO: 16064943	FARI - AI for the Common Good
+INFO: 15489366	Alignement des intelligences artificielles
+INFO: 16101793	Boom de l'intelligence artificielle
+INFO: 16193476	Course aux armements intelligents
+INFO: 16351994	Conséquences économiques de l'intelligence artificielle
+INFO: 16434362	Distillation des connaissances
+INFO: 16662375	Génération Bêta
+INFO: 16716565	Current AI
+INFO: 16738676	AZFinText
+INFO: 16871609	EsmGFP
+INFO: 651	Communication humaine
+INFO: 768505	Contexte
+INFO: 928272	Base de connaissance
+INFO: 967431	Effet ELIZA
+INFO: 1542185	Analyse sémantique latente probabiliste
+INFO: 1644419	Copycat (logiciel)
+INFO: 1666342	General Problem Solver
+INFO: 3044459	Cadre (intelligence artificielle)
+INFO: 3964102	Conscience artificielle
+INFO: 4480461	FreeHAL
+INFO: 4811461	Avida (logiciel)
+INFO: 5528070	Agent virtuel
+INFO: 5433296	Arithmétique floue
+INFO: 5762097	Caltech 101
+INFO: 5717097	Cleverbot
+INFO: 6696965	Chaînage arrière
+INFO: 6714775	Eigenface
+INFO: 7635276	Chinook (programme de dames)
+INFO: 8476497	Brain Activity Map Project
+INFO: 9743984	AlphaGo
+INFO: 10139572	Calcul des situations
+INFO: 8826827	DARPA Robotics Challenge
+INFO: 11432782	AlphaGo Zero
+INFO: 12540143	Friday (comics)
+INFO: 12884214	Déclaration de Montréal pour un développement responsable de l'intelligence artificielle
+INFO: 13102509	Basilic de Roko
+INFO: 13586910	Agence francophone pour l'intelligence artificielle
+INFO: 11870751	Applications de l'intelligence artificielle
+INFO: 14442889	Apprentissage par renforcement profond
+INFO: 14887533	DentalMonitoring
+INFO: 15548047	GitHub Copilot
+INFO: 15574354	Center for Human-Compatible Artificial Intelligence
+INFO: 15582861	Conférence d'Asilomar sur l'IA bénéfique
+INFO: 15605223	Alignment Research Center
+INFO: 14927170	DALL-E
+INFO: 15915824	Character.ai
+INFO: 15944563	Falcon 180B
+INFO: 16003990	Brain Bar
+INFO: 16097657	Détection de contenu généré par intelligence artificielle
+INFO: 16093996	ChatGPT dans l'éducation
+INFO: 16113777	Emi Kusano
+INFO: 16273847	Apprentissage par renforcement à partir de rétroaction humaine
+INFO: 16399359	ChatGPT Search
+INFO: 16403895	CIFAR-10
+INFO: 16746939	Advice Taker
+INFO: 16681049	DeepSeek
+INFO: 16903984	Adobe Firefly
+INFO: 16815463	Chronologie de l'intelligence artificielle
+INFO: 16833737	Deep Learning Anti-Aliasing
+INFO: 16954363	AffectNet
+INFO: 16195162	Bertrand Braunschweig
+INFO: Finished 47-process extraction of 150 articles in 0.1s (1005.1 art/s)
+INFO: total of page: 150, total of articl page: 150; total of used articl page: 150
+
+Final stage: separating docs
+
+Separating documents; placing in folder: /misc/grice1/meyers/Termolator2/working_copy/summary/Intelligence_artificielle
+Done
+##########bash /misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction/get_wiki_corpus_main.sh French Intelligence_artificielle /misc/grice1/meyers/Termolator2/working_copy/summary/Intelligence_artificielle True  150 /misc/grice1/meyers/Termolator2/working_copy/wikipedia_file_extraction
+min:
+/misc/grice1/meyers/Termolator2/working_copy/summary/Intelligence_artificielle.file_list 1
+150
+150
+Intelligence_artificielle did not have enough articles. Additional articles were taken from other background topics
+#########/misc/grice1/meyers/Termolator2/working_copy/run_termolator.sh /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle.file_list_2 /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle_all_background_files.file_list .txt Vision_artificielle True True 30000 5000 /misc/grice1/meyers/Termolator2/working_copy False False False wikipedia-Vision_artificielle_background.pkl -1
+##########/misc/grice1/meyers/Termolator2/working_copy/run_term_map.sh /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle.file_list_2 /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle.out_term_list Vision_artificielle /misc/grice1/meyers/Termolator2/working_copy/summary /misc/grice1/meyers/Termolator2/working_copy
+##########/misc/grice1/meyers/Termolator2/working_copy/run_summary.sh Vision_artificielle /misc/grice1/meyers/Termolator2/working_copy/summary /misc/grice1/meyers/Termolator2/working_copy .txt3
+Foreground folder location: Vision_artificielle
+Background folder location: Intelligence_artificielle
+Treetagger location: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0
+Termolator location: /misc/grice1/meyers/Termolator2/working_copy
+/misc/grice1/meyers/Termolator2/working_copy
+
+lang model back
+Intelligence_artificielle_tempfiles/
+112345
+
+Running TreeTagger to tag background documents.
+
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 5
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 10
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 15
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 20
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 25
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 30
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 35
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 40
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 45
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 50
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 55
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 60
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 65
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 70
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 75
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 80
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 85
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 90
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 95
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 100
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 105
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 110
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 115
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 120
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 125
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 130
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 135
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 140
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 145
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+/misc/grice1/meyers/Termolator2/working_copy/tag_back_and_foreground.sh: line 30: /misc/grice1/meyers/Termolator2/working_copy/summary/Vision_artificielle0/cmd/tagger-chunker-french: No such file or directory
+Tagging doc: 150
+Done tagging docs in Intelligence_artificielle
+/misc/grice1/meyers/Termolator2/working_copy/make_file_list.sh
+Intelligence_artificielle_tagged_list.txt
+10990
+
+Retrieving noun chunks from background documents.
+
+/misc/grice1/meyers/Termolator2/working_copy/getNounChunks /misc/grice1/meyers/Termolator2/working_copy/summary/Intelligence_artificielle_tagged_list.txt
+
+Running first stage filter on background documents.
+
+Foreground folder location: Vision_artificielle
+Background folder location: Vision_artificielle1
+Treetagger location: 
+Termolator location: 
+
+Running distributional component.
+
+python3: can't open file '/distributional_component.py': [Errno 2] No such file or directory
+
+Running last stage filter.
+
+python3: can't open file '/filter_term_output_fr.py': [Errno 2] No such file or directory
+
+Final list of terms can be found in .scored_output.
+Done.
+
+^CTraceback (most recent call last):
+  File "/misc/grice1/meyers/Termolator2/working_copy/summary/auto_summary.py", line 349, in <module>
+    run_summary()
+  File "/misc/grice1/meyers/Termolator2/working_copy/summary/auto_summary.py", line 329, in run_summary
+    subprocess.run(cmd, check=True)
+  File "/usr/lib64/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib64/python3.9/subprocess.py", line 1126, in communicate
+    self.wait()
+  File "/usr/lib64/python3.9/subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib64/python3.9/subprocess.py", line 1933, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib64/python3.9/subprocess.py", line 1891, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+
+]0;alm4@grice:~/Termolator2/working_copy/summary[?2004h(dspython) (dspython) [alm4@grice summary]$ exit
+[?2004lexit
+
+Script done on 2025-07-30 08:39:21-04:00 [COMMAND_EXIT_CODE="130"]
